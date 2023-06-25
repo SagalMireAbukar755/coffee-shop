@@ -1,0 +1,601 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+.headerParent{
+    background: rgba(0, 0, 0, 0.4) url(The-Photograph.jpeg);
+background-blend-mode: darken;
+height: 600px;
+width: 100%;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.header{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+    height: 90px;
+    /* opacity: 60%; */
+
+}
+
+
+.links ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 20px;
+   margin-right: 80px;
+    
+}
+
+.links ul li{
+    font-size: 20px;
+    padding: 10px;
+   
+    
+}
+
+.links ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.links ul li a:hover{
+    color: orange;
+    border-bottom: 3px solid orange;
+    scale: 1.5s ease;
+    margin-top: 90px;
+}
+
+.links ul li a .hoverr{
+    color: orange;
+}
+
+
+
+.textCenter button{
+    background-color: orange;
+    border: none;
+    width: 120px;
+    color: white;
+    font-size: 16px;
+    border-radius: 15px;
+    height: 40px;
+   
+    
+}
+
+.textCenter button:hover{
+    transform: scale(1.1);
+    transition-duration: 2s;
+   
+}
+
+
+
+.textCenter button:hover{
+    background-color: white;
+    border-radius: 15px;
+    border: 1.5px solid orange ;
+    color: orange;
+}
+
+
+.logo img{
+    height: 150px;
+    width: 180px;
+    margin-top:  -26px;
+
+}
+
+span{
+    color: orange;
+}
+
+.textCenter{
+    position: absolute;
+    color: orange;
+    padding-left: 40px;
+    top: 210px;
+    left: 450px;
+    animation-name: centerBtn ;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes  centerBtn {
+  0%{
+   padding-left: 100px;
+  }
+  25%{
+    padding-right: 100px;
+  }
+        
+}
+
+.textCenter p{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.textCenter h1{
+    font-size: 40px;
+    padding-bottom: 15px;
+    color: orange;
+    
+}
+
+.aboutTitle{
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+.fa-star-sharp{
+    color: black;
+}
+
+.aboutParent{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+
+.aboutText{
+    padding-top: 50px;
+    transition-duration: 3s;
+    animation-name: aboutText;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes   aboutText{
+    0%{
+        margin-left: 20px;
+    }
+   
+   
+}
+
+.aboutImg img{
+    margin-top: 30px;
+    height: 280px;
+    width: 400px;
+    border-radius: 10px;
+    animation-name: aboutImg;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes aboutImg {
+    0%{
+        margin-left: 50px;
+    }
+    0%{
+        margin-right: 50px;
+    }
+}
+
+
+
+.menuPrent{
+    text-align: center;
+}
+
+.box1{
+    background-color:white;
+    height: 250px;
+    width: 200px;
+    box-shadow: 3px 5px 10px;
+    margin-top: 70px;
+   
+}
+
+.box1:hover{
+    transform: scale(1);
+    transition-duration: 3s;
+}
+
+.box1 p{
+    padding-left: 20px;
+}
+
+.box1 h5{
+    padding-left: 20px;
+}
+
+.box1 img{
+    height: 200px;
+    width: 200px;
+   
+}
+
+
+
+.button{
+    position: absolute;
+    color: white;
+    right: 20px;
+    bottom: 40px;
+    display: none;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: 230px 230px 230px 230px;
+    justify-content: center;
+    grid-template: 10px;
+}
+
+.box1:hover{
+    transform: scale(1.1);
+    animation-duration: 3s;
+    animation-delay: 1s;
+
+}
+
+.teamTitle{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.blogTitle{
+    text-align: center;
+    padding-top: 80px;
+}
+
+.blogs{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+}
+
+.blog{
+    background-color: rgb(245, 239, 229);
+}
+
+.blogs img{
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.blog h3{
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom:  5px;;
+ 
+}
+
+hr{
+    margin-top: 10px;
+}
+
+.blog p{
+    text-align: left;
+    padding-left: 14px;
+    padding-bottom: 6px;
+}
+
+.para{
+    display: flex;
+    gap: 10px;
+    padding-top: 8px;
+    font-size: 13px;
+}
+.para i{
+    
+    color: orange;
+    padding-right: 3px;
+}
+
+
+.teamPrent{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.team img{
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.info{
+    background-color: white;
+    position: absolute;
+    margin-top: -60px;
+    height: 100px;
+    width: 200px;
+    margin-left: 25px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.social{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    
+}
+
+.fa-brands{
+    background-color: orange;
+    padding: 10px;
+    border-radius: 50%;
+    color: black;
+}
+
+
+.reviewTitle{
+    text-align: center;
+    padding-top: 130px;
+}
+
+.reviewParent{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+   justify-content: center;
+   gap: 50px;
+   margin-top: 60px;
+
+}
+
+.review{
+    background-color: oldlace;
+    height: 180px;
+}
+
+.text{
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.text h2{
+    text-align: center;
+    color: orange;
+}
+
+
+.contactColor{
+    background-color: antiquewhite;
+    margin-top: 70px;
+  
+}
+
+.contactTitle{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.contactParent{
+    display:grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: space-evenly;
+    margin-top: 40px;
+   
+    
+}
+
+.contacttext h2,p{
+    padding-top: 15px;
+}
+
+.soci h2{
+    padding-bottom: 7px;
+}
+
+
+.contactParent input{
+    margin: 4px 0;
+    padding: 8px;
+    width: 280px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+.contactParent button{
+    margin: 4px 0;
+    padding: 8px;
+    background-color: orange;
+    color: black;
+    border: none;
+    width: 80px;
+    border-radius: 20px;
+    
+}
+
+
+.contactParent textarea{
+    margin: 4px 0;
+    padding: 8px;
+    width: 280px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 80px;
+}
+
+
+.openTime{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hours {
+    padding: 2px;
+}
+.days{
+    padding: 5px; 
+}
+
+.fooderParent
+{
+    background-color:rgb(193, 161, 137);
+}
+
+.fooderParent{
+    color: white;
+    padding-bottom: 20px;
+}
+
+.explore a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-left: 50px;
+    
+}
+
+/* .fAboutLogo img{
+    width: 150px;
+    height: 150px;
+
+} */
+
+@media screen and (max-width:600px){
+
+    .aboutParent{
+        width: 100%;
+    }
+
+    .header{
+        width: 100%;
+        display: flex;
+        flex-direction: column;  
+    }
+
+    .links{
+        display: none;
+    }
+
+    .links ul{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: black;
+        margin-top: -39px;
+    }
+
+    .links ul li{
+        padding: 5px;
+        padding-left: 30px;
+    }
+
+    .links.active{
+        display: block;
+    }
+
+    .button{
+        display: block;
+
+    }
+    .button:hover{
+        color: orange;
+    }
+
+   
+    .textCenter{
+        left: 20px;
+        top: 350px;
+    }
+
+
+
+
+    .aboutParent{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .aboutText{
+        width: 100%;
+        text-align: left;
+        padding-left: 30px;
+        padding-right: 90px;
+    }
+
+    .aboutImg{
+        width: 100%;
+        margin-left: 30px;
+    }
+
+    .menu{
+        display: grid;
+        grid-template-columns: 250px 250px;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .blogs{
+        display: grid;
+        grid-template-columns: 300px;
+        width: 100%;
+        row-gap: 50px;
+
+    }
+
+    .teamPrent{
+        display: grid;
+        grid-template-columns: 300px;
+        gap: 80px;
+    }
+    
+    .reviewParent{
+        display: grid;
+        grid-template-columns: 300px;
+        width: 100%;
+    }
+
+    .contactParent{
+        display: grid;
+        grid-template-columns: 300px;
+        width: 100%;
+
+        gap: 40px;
+    }
+
+    .footer{
+        display: grid;
+        grid-template-columns: 300px;
+        width: 100%;
+        gap: 50px;
+        width: 100%;
+    }
+    
+}
